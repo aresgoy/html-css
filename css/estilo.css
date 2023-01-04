@@ -1,0 +1,116 @@
+ /* fuentes::after
+https://www.w3schools.com/css/default.a
+*/
+
+ /*imagen de uvas y color de fondo en toda la pagina */
+.toda-la-pag {
+    background-color: #e7e4e4;    
+    background-image: url(../images/dibujo.jpg);
+    background-position: right top;
+}
+.titulo {
+    /* estilos para el titulo del index html */
+    background-color: #7f052a;
+    opacity: 0.7;
+    border-style: hidden; 
+    color: whitesmoke;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: oblique;
+    font-size: 250%;
+    text-align: center;
+}  
+
+  /* frase en index html debajo del titulo */
+.frase {
+    background-color: #b16380;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 130%;
+    text-align: center;
+} 
+
+/* estilos para los parrafos del todas las hojas html */
+.parrafos {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    font-size: 110%;
+    line-height: 110%;
+    text-align: justify;
+}
+
+/* estilos para el menu de navegacion que aparece en todas las paginas del html */
+.menu-nav {
+    background-color:#dac3d6;
+    font-size: 130%;
+    text-align: center;
+}
+
+/* para hacer que el menu de navegacion se despliegue de manera horizontal */
+ul li {
+    display: inline;
+  padding-right: 2em;
+}
+
+/* para dar espacio a los iconos de redes sociales */
+.redes {
+    padding: 1%;
+}
+
+/* para dar espacio entre las imagenes de todas las paginas html */
+img {
+    padding: 2%;
+}
+
+/* imagenes centradas dentro del contenedor en todas las paginas html */
+.fotos {
+    text-align: center;
+}
+
+/* alinear al centro del contenedor los videos de todo el html */
+.video {
+    text-align: center;
+}
+
+/* estilos para tabla de la pagina html vida social */
+table, th, td {
+    border: 1px solid;
+    text-align: center; 
+    background-color: #eee9ed;
+    border: 1px solid;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* centrar mapa en la pag como llegar */
+.mapa {
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+/* estilo a todo el contenedor del formulario en pagina como llegar */
+.formulario {
+    background-color: rgb(252, 248, 248);
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* tamaño de los contenedores del formulario en pag como llegar */
+input {
+    width: 30%;
+}
+
+/* tamaño de contenedor para mensaje del formulario en pag como llegar */
+.area-mensaje {
+    width: 30%;
+}
+
+/* tamaño del boton para enviar formulario en pag como llegar */
+.boton {
+    width: 15%;
+}
+
+/* alinear al centro, color de fondo y tamaño del relleno del contenedor del pie de pagina de todas las paginas html */
+footer {
+    background-color: rgb(236, 228, 234);
+    padding-bottom: 1em;
+    text-align: center;
+}
